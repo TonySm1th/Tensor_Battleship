@@ -1,0 +1,60 @@
+body {
+    background: lightgray;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 4em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+.gameBoards{
+    position:relative;
+    width: 1200px;
+    height: 500px;
+    background: gray;
+    margin:0 auto;
+    border: 5px solid black;
+
+}
+
+#inputForm{
+
+
+}
+
+#textField{
+    line-height: 36px;
+}
+
+#startButton {
+    margin-top: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    border: none;
+}
+
+.gameBoards div{
+    position:absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f6f8f9;
+    border: 1px solid #ddd;
+    width:50px;
+    height:50px;
+}
+
+#gameBoardUser {
+    position:absolute;
+    right: 0px;
+    width:500px;
+    height:500px;
+}
+
+#gameBoardComputer {
+    width:500px;
+    height:500px;
+}
+
